@@ -19,8 +19,8 @@ steps:
       resourceGroupName: 'NetworkWatcherRG'
       location: 'Central US'
       templateLocation: 'URL of the file'
-      csmFileLink: '$(Build.Repository.LocalPath)\**\*.json'
-      csmParametersFileLink: '$(Build.Repository.LocalPath)\**\*.param.json'
+      csmFileLink: '**\*.json'
+      csmParametersFileLink: '**\*.param.json'
       deploymentMode: 'Complete'
       deploymentName: 'vm'
 
